@@ -93,10 +93,10 @@ void PrintNumbers(int[] numbers)
 {
     for (int i = 0; i < numbers.Length; i++)
     {
-        if (i % 10 == 0)
+        if (i % 10 == 0 )
         {
             Console.WriteLine(numbers[i]);
         }
-        else Console.Write(i + "\t");
+        else Console.Write(numbers[i] + "\t");
     }
 }
